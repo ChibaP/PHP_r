@@ -15,14 +15,25 @@
         <h1 class="title">PHPでジャンケンゲーム</h1>
         <p>なんかcssが適用されねーんだけど</p>
     </header>
-    <div class="input" method="POST">
+    <div class="input" >
         <img src="image/janken_boys.png" alt="">
-        <form action="game.php">
+        <form method="POST" action="game.php">
             <p>名前を入力してください。</p>
-            <input class="name" name="userName">
+            <input class="name" id="userName" name="userName">
             <br>
             <input class="sub" type="submit" value="ゲーム開始">
         </form>
+    </div>
+    </div>
+      <form class="input" method="post" action="game.php">
+        <div class="mt-3 col-5">
+          <label for="user_name" class="form-label">ユーザー名</label>
+          <input type="text" class="form-control" id="user_name" name="user_name">
+          <div class="d-flex justify-content-center">
+            <button type="submit" class="sub">始める</button>
+          </div>
+        </div>
+      </form>
     </div>
 </body>
 </html>

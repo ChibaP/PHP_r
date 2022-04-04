@@ -1,4 +1,4 @@
-<?php $name=$_GET["userName"] ?>
+<?php $name = isset($_POST['userName']) ? $_POST['userName'] : '';?>
 
 <!DOCTYPE html>
 <html lang="jp">
@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
     <link rel="stylesheet" href="Style_game.css">
+    <title>ゲーム開始</title>
 </head>
 <body>
     <header>
