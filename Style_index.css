@@ -22,7 +22,7 @@ h1{
     margin:0 auto;
     width:800px;
     height:1200px;
-    border: 1px solid red;
+    
 }
 
 .input p{
@@ -38,6 +38,7 @@ h1{
 }
 
 .sub{
+    margin-top: 10px;
     background-color: rgb(0, 153, 255);
     height:30px;
 	line-height:30px;
